@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-sane",
+  "version": "0.0.0",
+  "description": "A sane JavaScript style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellyselden/eslint-config-sane.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Kelly Selden <kellyselden@gmail.com> (https://github.com/kellyselden)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kellyselden/eslint-config-sane/issues"
+  },
+  "homepage": "https://github.com/kellyselden/eslint-config-sane#readme"
+}
