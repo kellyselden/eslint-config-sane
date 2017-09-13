@@ -21,6 +21,7 @@ module.exports = {
     'comma-dangle': 2,
     'comma-spacing': 2,
     'eol-last': 2,
+    'function-paren-newline': 2,
     'indent': [2, 2, {
       'SwitchCase': 1
     }],
