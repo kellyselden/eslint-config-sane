@@ -33,7 +33,7 @@ module.exports = {
     'object-curly-spacing': [2, 'always'],
     'quotes': [2, 'single'],
     'semi-spacing': 2,
-    'semi': [2, 'always'],
+    'semi': 2,
     'keyword-spacing': 2,
     'space-before-blocks': 2,
     'space-before-function-paren': [2, 'never'],
