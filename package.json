@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kellyselden/eslint-config-sane/issues"
   },
-  "homepage": "https://github.com/kellyselden/eslint-config-sane#readme"
+  "homepage": "https://github.com/kellyselden/eslint-config-sane#readme",
+  "peerDependencies": {
+    "eslint-plugin-prefer-let": "^1.0.0"
+  }
 }

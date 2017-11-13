@@ -1,6 +1,11 @@
 module.exports = {
   extends: 'eslint:recommended',
+  plugins: [
+    'prefer-let'
+  ],
   rules: {
+    'prefer-let/prefer-let': 2,
+
     // possible errors
     'no-extra-parens': 2,
 
