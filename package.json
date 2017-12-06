@@ -20,7 +20,7 @@
     "url": "https://github.com/kellyselden/eslint-config-sane/issues"
   },
   "homepage": "https://github.com/kellyselden/eslint-config-sane#readme",
-  "dependencies": {
+  "peerDependencies": {
     "eslint-plugin-prefer-let": "^1.0.0"
   }
 }
