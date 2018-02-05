@@ -15,6 +15,7 @@ module.exports = {
     // best practice
     'curly': 2,
     'eqeqeq': 2,
+    'no-alert': 2,
 
     // rules
     'no-shadow-restricted-names': 2,
