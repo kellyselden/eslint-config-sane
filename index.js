@@ -11,6 +11,7 @@ module.exports = {
 
     // es6
     'no-var': 2,
+    'object-shorthand': 2,
 
     // best practice
     'curly': 2,
