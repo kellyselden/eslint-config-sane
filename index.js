@@ -38,6 +38,7 @@ module.exports = {
     'no-spaced-func': 2,
     'no-trailing-spaces': 2,
     'object-curly-spacing': [2, 'always'],
+    'one-var': [2, 'never'],
     'quotes': [2, 'single'],
     'semi-spacing': 2,
     'semi': 2,
