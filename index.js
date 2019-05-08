@@ -6,6 +6,9 @@ module.exports = {
   rules: {
     'prefer-let/prefer-let': 2,
 
+    // recommended override
+    'no-empty': [2, { allowEmptyCatch: true }],
+
     // possible errors
     'no-extra-parens': 2,
 
