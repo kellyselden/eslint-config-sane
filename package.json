@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sane",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "A sane JavaScript style",
   "main": "index.js",
   "scripts": {
