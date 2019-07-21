@@ -1,12 +1,9 @@
 module.exports = {
   extends: 'eslint:recommended',
   plugins: [
-    'json-files',
     'prefer-let'
   ],
   rules: {
-    'json-files/restrict-ranges': [2, { pinUnstable: true }],
-
     'prefer-let/prefer-let': 2,
 
     // recommended override
