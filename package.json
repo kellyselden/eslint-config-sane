@@ -24,6 +24,7 @@
     "index.js"
   ],
   "peerDependencies": {
+    "eslint": ">=5 <7",
     "eslint-plugin-prefer-let": "^1.0.0"
   }
 }
