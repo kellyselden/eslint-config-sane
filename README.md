@@ -4,6 +4,10 @@
 
 A sane JavaScript style
 
+Uses
+
+* [eslint-plugin-prefer-let](https://github.com/cowboyd/eslint-plugin-prefer-let)
+
 ### Installation
 
 ```
