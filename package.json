@@ -26,5 +26,8 @@
   "peerDependencies": {
     "eslint": ">=5",
     "eslint-plugin-prefer-let": ">=1"
+  },
+  "engines": {
+    "node": ">=20.9"
   }
 }
