@@ -4,7 +4,7 @@
   "description": "A sane JavaScript style",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --ext js,json"
   },
   "repository": {
     "type": "git",
@@ -14,8 +14,18 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "Kelly Selden <kellyselden@gmail.com> (https://github.com/kellyselden)",
+  "author": "Kelly Selden",
   "license": "MIT",
+  "devDependencies": {
+    "@kellyselden/node-template": "6.5.2",
+    "eslint": "^8.57.1",
+    "eslint-config-sane": "file:.",
+    "eslint-config-sane-node": "^2.0.0",
+    "eslint-plugin-json-files": "^5.1.0",
+    "eslint-plugin-n": "^17.20.0",
+    "eslint-plugin-prefer-let": "^4.0.0",
+    "renovate-config-standard": "2.3.0"
+  },
   "bugs": {
     "url": "https://github.com/kellyselden/eslint-config-sane/issues"
   },
