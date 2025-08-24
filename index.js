@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   extends: 'eslint:recommended',
   plugins: [
@@ -52,6 +54,6 @@ module.exports = {
     'space-in-parens': 2,
     'space-infix-ops': 2,
     'space-unary-ops': 2,
-    'spaced-comment': 2,
+    'spaced-comment': 2
   }
 };
