@@ -4,7 +4,7 @@
   "description": "A sane JavaScript style",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --ext js,json"
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -16,15 +16,21 @@
   ],
   "author": "Kelly Selden",
   "license": "MIT",
+  "dependencies": {
+    "@eslint/config-helpers": "0.3.1",
+    "@eslint/js": "^9.34.0",
+    "eslint-plugin-prefer-let": "^4.0.0"
+  },
   "devDependencies": {
     "@kellyselden/node-template": "6.5.2",
-    "eslint": "^8.57.1",
-    "eslint-config-sane": "file:.",
-    "eslint-config-sane-node": "^2.0.0",
-    "eslint-plugin-json-files": "^5.1.0",
-    "eslint-plugin-n": "^17.20.0",
-    "eslint-plugin-prefer-let": "^4.0.0",
+    "eslint": "^9.34.0",
+    "eslint-config-sane-node": "kellyselden/eslint-config-sane-node#eslint-9",
     "renovate-config-standard": "2.3.0"
+  },
+  "overrides": {
+    "eslint-config-sane-node": {
+      "eslint-config-sane": "file:."
+    }
   },
   "bugs": {
     "url": "https://github.com/kellyselden/eslint-config-sane/issues"
@@ -33,10 +39,6 @@
   "files": [
     "index.js"
   ],
-  "peerDependencies": {
-    "eslint": ">=5",
-    "eslint-plugin-prefer-let": ">=1"
-  },
   "engines": {
     "node": ">=20.9"
   }
