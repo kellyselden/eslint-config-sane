@@ -48,7 +48,7 @@ module.exports = defineConfig([
       'array-bracket-spacing': 2,
       'brace-style': 2,
       'camelcase': 2,
-      'comma-dangle': 2,
+      'comma-dangle': [2, 'always-multiline'],
       'comma-spacing': 2,
       'eol-last': 2,
       'function-paren-newline': [2, 'consistent'],
