@@ -2,7 +2,7 @@
 
 const {
   defineConfig,
-  globalIgnores
+  globalIgnores,
 } = require('@eslint/config-helpers');
 
 const preferLet = require('eslint-plugin-prefer-let');
@@ -14,13 +14,13 @@ module.exports = defineConfig([
     files: [
       '**/*.js',
       '**/*.cjs',
-      '**/*.mjs'
+      '**/*.mjs',
     ],
     languageOptions: {
-      ecmaVersion: 2022
+      ecmaVersion: 2022,
     },
     plugins: {
-      'prefer-let': preferLet
+      'prefer-let': preferLet,
     },
     rules: {
       'prefer-let/prefer-let': 2,
@@ -53,7 +53,7 @@ module.exports = defineConfig([
       'eol-last': 2,
       'function-paren-newline': [2, 'consistent'],
       'indent': [2, 2, {
-        'SwitchCase': 1
+        'SwitchCase': 1,
       }],
       'key-spacing': 2,
       'no-extra-semi': 2,
@@ -74,11 +74,11 @@ module.exports = defineConfig([
       'space-in-parens': 2,
       'space-infix-ops': 2,
       'space-unary-ops': 2,
-      'spaced-comment': 2
-    }
+      'spaced-comment': 2,
+    },
   },
   globalIgnores([
     '!**/.*',
-    'node_modules/'
-  ])
+    'node_modules/',
+  ]),
 ]);
