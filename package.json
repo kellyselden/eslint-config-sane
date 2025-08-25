@@ -18,14 +18,13 @@
   "license": "MIT",
   "dependencies": {
     "@eslint/config-helpers": "0.3.1",
-    "@eslint/js": "^9.34.0",
-    "eslint-plugin-prefer-let": "^4.0.0"
+    "@eslint/js": "^9.34.0"
   },
   "devDependencies": {
     "@kellyselden/node-template": "6.7.0",
     "eslint": "^9.34.0",
     "eslint-config-sane-node": "kellyselden/eslint-config-sane-node#eslint-9",
-    "renovate-config-standard": "2.3.0"
+    "renovate-config-standard": "2.4.2"
   },
   "overrides": {
     "eslint-config-sane-node": {
