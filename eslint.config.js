@@ -1,11 +1,11 @@
 'use strict';
 
 const {
-  defineConfig
+  defineConfig,
 } = require('eslint/config');
 
 const saneNode = require('eslint-config-sane-node');
 
 module.exports = defineConfig([
-  saneNode
+  saneNode,
 ]);
