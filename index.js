@@ -59,7 +59,7 @@ module.exports = defineConfig([
       'no-extra-semi': 2,
       'no-lonely-if': 2,
       'no-mixed-spaces-and-tabs': 2,
-      'no-multiple-empty-lines': 2,
+      'no-multiple-empty-lines': [2, { 'max': 1 }],
       'no-spaced-func': 2,
       'no-trailing-spaces': 2,
       'object-curly-spacing': [2, 'always'],
