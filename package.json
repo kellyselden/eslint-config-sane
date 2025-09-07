@@ -22,10 +22,10 @@
     "eslint-plugin-prefer-let": "^4.0.0"
   },
   "devDependencies": {
-    "@kellyselden/node-template": "6.5.2",
+    "@kellyselden/node-template": "6.9.0",
     "eslint": "^9.34.0",
     "eslint-config-sane-node": "kellyselden/eslint-config-sane-node#eslint-9",
-    "renovate-config-standard": "2.3.0"
+    "renovate-config-standard": "2.4.2"
   },
   "overrides": {
     "eslint-config-sane-node": {
