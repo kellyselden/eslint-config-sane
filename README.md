@@ -11,5 +11,5 @@ Uses
 ### Installation
 
 ```
-npm install --save-dev eslint-config-sane eslint-plugin-prefer-let
+npm install --save-dev eslint-config-sane
 ```
