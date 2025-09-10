@@ -2,20 +2,27 @@
   "name": "eslint-config-sane",
   "version": "4.0.1",
   "description": "A sane JavaScript style",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint"
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "homepage": "https://github.com/kellyselden/eslint-config-sane#readme",
+  "bugs": {
+    "url": "https://github.com/kellyselden/eslint-config-sane/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kellyselden/eslint-config-sane.git"
   },
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
-  "author": "Kelly Selden",
   "license": "MIT",
+  "author": "Kelly Selden",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint"
+  },
   "dependencies": {
     "@eslint/config-helpers": "0.3.1",
     "@eslint/js": "^9.34.0",
@@ -24,22 +31,15 @@
   "devDependencies": {
     "@kellyselden/node-template": "6.9.0",
     "eslint": "^9.34.0",
-    "eslint-config-sane-node": "^5.0.0",
+    "eslint-config-sane-node": "^6.0.0",
     "renovate-config-standard": "2.4.2"
+  },
+  "engines": {
+    "node": ">=20.9"
   },
   "overrides": {
     "eslint-config-sane-node": {
       "eslint-config-sane": "file:."
     }
-  },
-  "bugs": {
-    "url": "https://github.com/kellyselden/eslint-config-sane/issues"
-  },
-  "homepage": "https://github.com/kellyselden/eslint-config-sane#readme",
-  "files": [
-    "index.js"
-  ],
-  "engines": {
-    "node": ">=20.9"
   }
 }
