@@ -29,7 +29,7 @@
     "eslint-plugin-prefer-let": "^4.0.0"
   },
   "devDependencies": {
-    "@kellyselden/node-template": "6.9.0",
+    "@kellyselden/node-template": "6.11.0",
     "eslint": "^9.34.0",
     "eslint-config-sane-node": "^6.0.0",
     "renovate-config-standard": "2.4.2"
