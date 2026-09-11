@@ -25,12 +25,12 @@
   },
   "dependencies": {
     "@eslint/config-helpers": "0.3.1",
-    "@eslint/js": "^9.34.0",
+    "@eslint/js": "^10.0.0",
     "eslint-plugin-prefer-let": "^4.0.0"
   },
   "devDependencies": {
     "@kellyselden/node-template": "7.1.0",
-    "eslint": "^9.34.0",
+    "eslint": "^10.0.0",
     "eslint-config-sane-node": "^6.0.0",
     "renovate-config-standard": "2.4.2",
     "standard-node-template": "8.0.0"
