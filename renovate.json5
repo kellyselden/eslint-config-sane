@@ -3,4 +3,12 @@
   "extends": [
     "github>kellyselden/renovate-config:default.json5",
   ],
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "@eslint/config-helpers",
+      ],
+      "separateMultipleMinor": true,
+    },
+  ],
 }
